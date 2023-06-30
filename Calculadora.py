@@ -7,4 +7,16 @@ y = int(input("Dijite el segundo numer: "))
 print()
 op = input("Dijite la operacion: ")
 print()
-print(f"el resultado de {x} y {y} = result")
+
+if op == "suma":
+    result = x + y
+    print(f"el resultado es : {result}")
+elif op == "resta":
+    result = x - y
+    print(f"el resultado es : {result}")
+elif op == "multiplicacion":
+    result = x * y
+    print(f"el resultado es : {result}")
+elif op == "divsion":
+    result = x / y
+    print(f"el resultado es : {result}")
